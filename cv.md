@@ -51,6 +51,7 @@ _soon..._
 * E-mail: [<a href="mailto:yankvasya@gmail.com">yankvasya@gmail.com</a>](yankvasya@gmail.com)
 * Github: [yankvasya](https://github.com/yankvasya)
 * Telegram: [Vasily Yankovsky](https://t.me/EHOTUKZ) 
+* Discord: Vasily Yankovsky (@yankvasya) **or** EHOTUKZ#3543
 
 <br>
 <br>
