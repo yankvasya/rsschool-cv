@@ -32,6 +32,7 @@ body {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .wrapper, .container {
@@ -39,7 +40,7 @@ body {
 }
 
 main {
-  padding-top: 115px;
+  overflow-y: auto;
 }
 
 .header {
@@ -55,6 +56,8 @@ main {
   right: 0;
   height: 115px;
   border-bottom: 1px solid #3a4579;
+  background: #141C3A;
+  z-index: 42;
 }
 .header .container {
   display: -webkit-box;
@@ -94,4 +97,90 @@ main {
   text-shadow: 0 0 4px #aa68ff;
   -webkit-transition: color 0.5s, text-shadow 0.5s;
   transition: color 0.5s, text-shadow 0.5s;
+}
+
+.about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about-me__title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  color: #F9FBFD;
+}
+.about-me__desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #F9FBFD;
+}
+.about-me__avatar {
+  margin-top: 80px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1px solid rgba(132, 40, 248, 0.67);
+  background: rgba(132, 40, 248, 0.17);
+}
+.about-me__contacts {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about-me__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  padding: 0 20px;
+}
+.about-me__contact h4, .about-me__contact a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #F9FBFD;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.about-me__contact h4 a:hover, .about-me__contact a a:hover {
+  color: #8428F8;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.about-me__contact:first-child {
+  height: 4px;
+}
+.about-me__contact:first-child h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.about-me__contact:not(:first-child) {
+  border-left: 1px solid #DCDCDE;
 }
