@@ -47,6 +47,7 @@ body {
 
 main {
   position: relative;
+  scroll-behavior: smooth;
   overflow-y: scroll;
 }
 
@@ -92,12 +93,16 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
-.header__title {
+.header__link {
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 32px;
   color: #F9FBFD;
+}
+.header__link:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 .header .menu__list {
   display: -webkit-box;
@@ -532,7 +537,7 @@ main {
 .footer__author {
   font-style: normal;
   font-weight: 800;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 32px;
   color: #F9FBFD;
 }
