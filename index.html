@@ -2,247 +2,255 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vasily Yankovsky CV</title>
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <h1 class="header__title">Vasily Yankovsky</h1>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Vasily Yankovsky</h1>
 
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a class="menu__link" href="#">About Me</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Experience</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Skills</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Code Example</a></li>
-                    </ul>
-                </nav>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#">About Me</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Experience</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Skills</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Code Example</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="welcome">
+            <h2 class="welcome__title">Junior Frontend Developer</h2>
+            <h3 class="welcome__desc">
+                Mission-driven developer with a passion for thoughtful UI design, collaboration, and teaching.
+            </h3>
+            <img class="welcome__avatar" src="./assets/img/avatar.png" alt="avatar">
+            <ul class="welcome__contacts">
+                <li class="welcome__contact">
+                    <h4>Phone</h4>
+                    <h4><a href="tel:+79250351112">+7(925)035-11-12</a></h4>
+                </li>
+                <li class="welcome__contact">
+                    <h4>E-mail</h4>
+                    <h4><a href="mailto:yankvasya@gmail.com">yankvasya@gmail.com</a></h4>
+                </li>
+            </ul>
+        </section>
+
+        <section class="about-me">
+            <div class="about-me__info info">
+                <h2 class="info__title">Hi, I’m <span>Vasily</span>. Nice to meet you.</h2>
+                <p class="info__desc">I am 21, I study at the Moscow Polytechnic University.
+                    I like to load my brain with different tasks, for this reason I went to study in a technical specialty “Electrical and power engineering”.
+                    While still in my third year at university, I realized that I wanted something more. I soon became familiar with programming :)
+                    <span>I wanted, I want and will become a front-end developer</span></p>
             </div>
-        </header>
-        <main class="main">
-            <section class="welcome">
-                <h2 class="welcome__title">Junior Frontend Developer</h2>
-                <h3 class="welcome__desc">
-                    Mission-driven developer with a passion for thoughtful UI design, collaboration, and teaching.
-                </h3>
-                <img class="welcome__avatar" src="./assets/img/avatar.png" alt="avatar">
-                <ul class="welcome__contacts">
-                    <li class="welcome__contact">
-                        <h4>Phone</h4>
-                        <h4><a href="tel:+79250351112">+7(925)035-11-12</a></h4>
+        </section>
+
+        <section class="experience">
+            <h2 class="experience__title section__title">Experience</h2>
+
+            <div class="experience__all">
+                <ul class="experience__list">
+                    <li class="experience__item">
+                        <h6>2021 - Present</h6>
+                        <h5>JUNIOR FRONTEND DEVELOPER</h5>
                     </li>
-                    <li class="welcome__contact">
-                        <h4>E-mail</h4>
-                        <h4><a href="mailto:yankvasya@gmail.com">yankvasya@gmail.com</a></h4>
+                    <li class="experience__item">
+                        <h6>2021 - Present</h6>
+                        <h5>HTML, CSS, JS</h5>
+                    </li>
+                    <li class="experience__item">
+                        <h6>2021 - Present</h6>
+                        <h5>STAGE 0</h5>
                     </li>
                 </ul>
-            </section>
-
-            <section class="about-me">
-                <div class="about-me__info info">
-                    <h2 class="info__title">Hi, I’m <span>Vasily</span>. Nice to meet you.</h2>
-                    <p class="info__desc">I am 21, I study at the Moscow Polytechnic University.
-                        I like to load my brain with different tasks, for this reason I went to study in a technical specialty “Electrical and power engineering”.
-                        While still in my third year at university, I realized that I wanted something more. I soon became familiar with programming :)
-                        <span>I wanted, I want and will become a front-end developer</span></p>
-                </div>
-            </section>
-
-            <section class="experience">
-                <h2 class="experience__title section__title">Experience</h2>
-
-                <div class="experience__all">
-                    <ul class="experience__list">
-                        <li class="experience__item">
-                            <h6>2021 - Present</h6>
-                            <h5>JUNIOR FRONTEND DEVELOPER</h5>
-                        </li>
-                        <li class="experience__item">
-                            <h6>2021 - Present</h6>
-                            <h5>HTML, CSS, JS</h5>
-                        </li>
-                        <li class="experience__item">
-                            <h6>2021 - Present</h6>
-                            <h5>STAGE 0</h5>
-                        </li>
-                    </ul>
-                    <ul class="experience__list">
-                        <li class="experience__item">
-                            <h6>Loftschool</h6>
-                            <p>
-                                Studied basic HTML, CSS, JS there.
-                                Also looked into Vue.js (Vue-router, Vuex, Storybook, Vue-cli).
-                                I'm currently studying React.js there.
-                                Completed projects can be viewed in GitHub.
-                            </p>
-                        </li>
-                        <li class="experience__item">
-                            <h6>Udemy</h6>
-                            <p>In parallel, I get knowledge here in my free time.</p>
-                        </li>
-                        <li class="experience__item">
-                            <h6>RSSCHOOL</h6>
-                            <p>I decided to go through stage 0 just out of general interest</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="skills">
-                <h2 class="skills__title section__title">Skills</h2>
-
-                <ul class="skills__list">
-                    <li class="skill">
-                        <h4 class="skill__name">Vue.js</h4>
-                        <div class="skill__progress">
-                            <div class="skill__line"></div>
-                            <div class="skill__count">80%</div>
-                        </div>
+                <ul class="experience__list">
+                    <li class="experience__item">
+                        <h6>Loftschool</h6>
+                        <p>
+                            Studied basic HTML, CSS, JS there.
+                            Also looked into Vue.js (Vue-router, Vuex, Storybook, Vue-cli).
+                            I'm currently studying React.js there.
+                            Completed projects can be viewed in GitHub.
+                        </p>
                     </li>
-                    <li class="skill">
-                        <h4 class="skill__name">React</h4>
-                        <div class="skill__progress">
-                            <div class="skill__line"></div>
-                            <div class="skill__count">80%</div>
-                        </div>
+                    <li class="experience__item">
+                        <h6>Udemy</h6>
+                        <p>In parallel, I get knowledge here in my free time.</p>
                     </li>
-                    <li class="skill">
-                        <h4 class="skill__name">Javascript (ES6)</h4>
-                        <div class="skill__progress">
-                            <div class="skill__line"></div>
-                            <div class="skill__count">80%</div>
-                        </div>
-                    </li>
-                    <li class="skill">
-                        <h4 class="skill__name">CSS (SCSS)</h4>
-                        <div class="skill__progress">
-                            <div class="skill__line"></div>
-                            <div class="skill__count">80%</div>
-                        </div>
-                    </li>
-                    <li class="skill">
-                        <h4 class="skill__name">HTML</h4>
-                        <div class="skill__progress">
-                            <div class="skill__line"></div>
-                            <div class="skill__count">80%</div>
-                        </div>
-                    </li>
-                    <li class="skill">
-                        <h4 class="skill__name">Rest API</h4>
-                        <div class="skill__progress">
-                            <div class="skill__line"></div>
-                            <div class="skill__count">80%</div>
-                        </div>
-                    </li>
-                    <li class="skill">
-                        <h4 class="skill__name">OOP</h4>
-                        <div class="skill__progress">
-                            <div class="skill__line"></div>
-                            <div class="skill__count">80%</div>
-                        </div>
-                    </li>
-                    <li class="skill">
-                        <h4 class="skill__name">Webpack</h4>
-                        <div class="skill__progress">
-                            <div class="skill__line"></div>
-                            <div class="skill__count">80%</div>
-                        </div>
+                    <li class="experience__item">
+                        <h6>RSSCHOOL</h6>
+                        <p>I decided to go through stage 0 just out of general interest</p>
                     </li>
                 </ul>
-            </section>
+            </div>
+        </section>
 
-            <section class="projects">
-                <h2 class="projects__title section__title">Projects</h2>
+        <section class="skills">
+            <h2 class="skills__title section__title">Skills</h2>
 
-                <ul class="projects__list">
-                    <li class="project">
-                        <a class="project__link" href="https://gitogram.github.io/" target="_blank">
-                            <img class="project__img" src="./assets/img/gitogram.jpg" alt="gitogram">
-                            <div class="project__info">
-                                <h3 class="project__name">Gitogram</h3>
-                                <h4 class="project__desc">Social network</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project">
-                        <a class="project__link" href="https://yankvasya.github.io/loft-taxi/" target="_blank">
-                            <img class="project__img" src="./assets/img/loft-taxi.jpg" alt="loft taxi">
-                             <div class="project__info">
-                                <h3 class="project__name">Loft Taxi</h3>
-                                <h4 class="project__desc">REACT || Application for ordering a taxi</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project">
-                        <a class="project__link" href="https://yankvasya.github.io/MK_project/" target="_blank">
-                            <img class="project__img" src="./assets/img/mortal-kombat.jpg" alt="Mortal Kombat">
-                             <div class="project__info">
-                                <h3 class="project__name">Mortal Kombat</h3>
-                                <h4 class="project__desc">JS (ES6) || fighting game</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project">
-                        <a class="project__link" href="https://yankvasya.github.io/beats_project/" target="_blank">
-                            <img class="project__img" src="./assets/img/beats-project.jpg" alt="beats project">
-                             <div class="project__info">
-                                <h3 class="project__name">Beats project</h3>
-                                <h4 class="project__desc">jQuery || Headphones site</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project">
-                        <a class="project__link" href="https://yankvasya-fed49cf5d2.drafts.github.io/wp-custom-chat/" target="_blank">
-                            <img class="project__img" src="./assets/img/custom-chat.jpg" alt="custom chat">
-                             <div class="project__info">
-                                <h3 class="project__name">Custom Chat</h3>
-                                <h4 class="project__desc">Javascript, Websocket || Custom chat</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="project">
-                        <a class="project__link" href="https://yankvasya.github.io/uber-project/" target="_blank">
-                            <img class="project__img" src="./assets/img/uber-project.jpg" alt="uber bootstrap">
-                             <div class="project__info">
-                                <h3 class="project__name">Uber project</h3>
-                                <h4 class="project__desc">Bootstrap || Uber site</h4>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </section>
+            <ul class="skills__list">
+                <li class="skill">
+                    <h4 class="skill__name">Vue.js</h4>
+                    <div class="skill__progress">
+                        <div class="skill__line"></div>
+                        <div class="skill__count">80%</div>
+                    </div>
+                </li>
+                <li class="skill">
+                    <h4 class="skill__name">React</h4>
+                    <div class="skill__progress">
+                        <div class="skill__line"></div>
+                        <div class="skill__count">80%</div>
+                    </div>
+                </li>
+                <li class="skill">
+                    <h4 class="skill__name">Javascript (ES6)</h4>
+                    <div class="skill__progress">
+                        <div class="skill__line"></div>
+                        <div class="skill__count">80%</div>
+                    </div>
+                </li>
+                <li class="skill">
+                    <h4 class="skill__name">CSS (SCSS)</h4>
+                    <div class="skill__progress">
+                        <div class="skill__line"></div>
+                        <div class="skill__count">80%</div>
+                    </div>
+                </li>
+                <li class="skill">
+                    <h4 class="skill__name">HTML</h4>
+                    <div class="skill__progress">
+                        <div class="skill__line"></div>
+                        <div class="skill__count">80%</div>
+                    </div>
+                </li>
+                <li class="skill">
+                    <h4 class="skill__name">Rest API</h4>
+                    <div class="skill__progress">
+                        <div class="skill__line"></div>
+                        <div class="skill__count">80%</div>
+                    </div>
+                </li>
+                <li class="skill">
+                    <h4 class="skill__name">OOP</h4>
+                    <div class="skill__progress">
+                        <div class="skill__line"></div>
+                        <div class="skill__count">80%</div>
+                    </div>
+                </li>
+                <li class="skill">
+                    <h4 class="skill__name">Webpack</h4>
+                    <div class="skill__progress">
+                        <div class="skill__line"></div>
+                        <div class="skill__count">80%</div>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-            <section class="code-example">
-                <h2 class="code-example__title section__title">Code Example</h2>
+        <section class="projects">
+            <h2 class="projects__title section__title">Projects</h2>
 
-                <div class="code-example__box">
-                    <code class="code">
-                        <span class="red">const</span> <span class="pink">theAnswerToAll</span>
-                        <span class="red">=</span>
-                        <span class="orange">text</span>
-                        <span class="red">=></span>
-                        <span class="orange">text</span>.<span class="pink">slice</span><span class="yellow">(</span>
-                        <span class="red">-</span><span class="blue">1</span>
-                        <span class="yellow">)</span>
-                        <span class="red">===</span> '?'
-                        <span class="red">?</span> <span class="blue">42</span> <span class="red">:</span>
-                        'it<span class="blue">\</span>'s not a question'
-                        <br><br>
-                        <span class="pink">theAnswerToAll</span><span class="yellow">(</span>
-                        'when will i become a frontend developer?'
-                        <span class="yellow">)</span>
-                    </code>
-                </div>
-            </section>
-        </main>
-        <footer class="footer"></footer>
-    </div>
+            <ul class="projects__list">
+                <li class="project">
+                    <a class="project__link" href="https://gitogram.github.io/" target="_blank">
+                        <img class="project__img" src="./assets/img/gitogram.jpg" alt="gitogram">
+                        <div class="project__info">
+                            <h3 class="project__name">Gitogram</h3>
+                            <h4 class="project__desc">Social network</h4>
+                        </div>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="project__link" href="https://yankvasya.github.io/loft-taxi/" target="_blank">
+                        <img class="project__img" src="./assets/img/loft-taxi.jpg" alt="loft taxi">
+                        <div class="project__info">
+                            <h3 class="project__name">Loft Taxi</h3>
+                            <h4 class="project__desc">REACT || Application for ordering a taxi</h4>
+                        </div>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="project__link" href="https://yankvasya.github.io/MK_project/" target="_blank">
+                        <img class="project__img" src="./assets/img/mortal-kombat.jpg" alt="Mortal Kombat">
+                        <div class="project__info">
+                            <h3 class="project__name">Mortal Kombat</h3>
+                            <h4 class="project__desc">JS (ES6) || fighting game</h4>
+                        </div>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="project__link" href="https://yankvasya.github.io/beats_project/" target="_blank">
+                        <img class="project__img" src="./assets/img/beats-project.jpg" alt="beats project">
+                        <div class="project__info">
+                            <h3 class="project__name">Beats project</h3>
+                            <h4 class="project__desc">jQuery || Headphones site</h4>
+                        </div>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="project__link" href="https://yankvasya-fed49cf5d2.drafts.github.io/wp-custom-chat/" target="_blank">
+                        <img class="project__img" src="./assets/img/custom-chat.jpg" alt="custom chat">
+                        <div class="project__info">
+                            <h3 class="project__name">Custom Chat</h3>
+                            <h4 class="project__desc">Javascript, Websocket || Custom chat</h4>
+                        </div>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="project__link" href="https://yankvasya.github.io/uber-project/" target="_blank">
+                        <img class="project__img" src="./assets/img/uber-project.jpg" alt="uber bootstrap">
+                        <div class="project__info">
+                            <h3 class="project__name">Uber project</h3>
+                            <h4 class="project__desc">Bootstrap || Uber site</h4>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="code-example">
+            <h2 class="code-example__title section__title">Code Example</h2>
+
+            <div class="code-example__box">
+                <code class="code">
+                    <span class="red">const</span> <span class="pink">theAnswerToAll</span>
+                    <span class="red">=</span>
+                    <span class="orange">text</span>
+                    <span class="red">=></span>
+                    <span class="orange">text</span>.<span class="pink">slice</span><span class="yellow">(</span>
+                    <span class="red">-</span><span class="blue">1</span>
+                    <span class="yellow">)</span>
+                    <span class="red">===</span> '?'
+                    <span class="red">?</span> <span class="blue">42</span> <span class="red">:</span>
+                    'it<span class="blue">\</span>'s not a question'
+                    <br><br>
+                    <span class="pink">theAnswerToAll</span><span class="yellow">(</span>
+                    'when will i become a frontend developer?'
+                    <span class="yellow">)</span>
+                </code>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <a href="https://github.com/yankvasya" target="_blank" class="footer__author">© 2022 by Vasily Yankovsky</a>
+
+                <a class="logo" href="https://rs.school/js/" target="_blank">
+                    <img class="logo__img" src="./assets/logo/rs_school_js.svg" alt="rsschool">
+                </a>
+            </div>
+        </footer>
+    </main>
+</div>
 </body>
 </html>
