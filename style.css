@@ -155,13 +155,77 @@ main {
   line-height: 30px;
   color: #F9FBFD;
 }
-.welcome__avatar {
-  margin-top: 80px;
+.welcome .avatar {
+  position: relative;
   width: 250px;
   height: 250px;
+  margin-top: 80px;
   border-radius: 50%;
+}
+.welcome .avatar__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
   border: 1px solid rgba(132, 40, 248, 0.67);
   background: rgba(132, 40, 248, 0.17);
+}
+.welcome .avatar__img img {
+  border-radius: 50%;
+  width: 250px;
+  height: auto;
+}
+.welcome .socials .social {
+  position: absolute;
+  top: 0;
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid rgba(152, 0, 255, 0.67);
+  background: #8428f8;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.welcome .socials .social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.welcome .socials .social__img {
+  width: 28px;
+  height: 28px;
+  fill: red;
+}
+.welcome .socials .social.github {
+  top: 69%;
+  left: 3%;
+}
+.welcome .socials .social.telegram {
+  top: 50%;
+  left: 0;
+}
+.welcome .socials .social.twitter {
+  top: 31%;
+  left: 3%;
+}
+.welcome .socials .social.linkedin {
+  top: 14%;
+  left: 12%;
+}
+.welcome .socials .social:hover {
+  background: #b229ff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .welcome__contacts {
   margin-top: 25px;
